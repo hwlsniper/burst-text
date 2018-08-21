@@ -2,9 +2,10 @@ spring:
   boot:
     admin:
       client:
-        metadata-map:
-          username: ${security.user.name}
-          password: ${security.user.password}
+        metadata:
+          user:
+            username: ${security.user.name}
+            password: ${security.user.password}
       monitor:
         period: 60000
       discovery:
