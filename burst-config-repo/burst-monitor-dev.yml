@@ -2,7 +2,7 @@ spring:
   boot:
     admin:
       client:
-        metadata:
+        metadata-map:
           user:
             name: ${security.user.name}
             password: ${security.user.password}
