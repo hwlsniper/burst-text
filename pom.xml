@@ -12,6 +12,8 @@
         <module>burst-gateway</module>
         <module>burst-common</module>
         <module>burst-monitor</module>
+        <module>burst-zipkin</module>
+        <module>burst-config</module>
     </modules>
     <packaging>pom</packaging>
 

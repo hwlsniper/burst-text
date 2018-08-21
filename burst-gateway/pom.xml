@@ -77,6 +77,7 @@
             <groupId>net.logstash.logback</groupId>
             <artifactId>logstash-logback-encoder</artifactId>
         </dependency>
+        <!--
         <dependency>
             <groupId>com.burst.text.cloud</groupId>
             <artifactId>burst-common-util</artifactId>
@@ -89,6 +90,7 @@
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
+        -->
     </dependencies>
 
     <build>

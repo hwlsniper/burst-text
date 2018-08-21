@@ -1,0 +1,16 @@
+server:
+  port: 8761    # 服务端口号, eureka 的端口号默认是 8761
+
+spring:
+  profiles:
+    active: dev # 指定服务环境, dev 是开发环境   test 是测试环境  pro  生成环境 (根据个人习惯设置)
+  application:
+    name: burst-eureka # @pom.artifactId@  # 服务名称, 和 pom.xml 文件中的 artifactId 标签一致
+
+# 设置访问 eureka server 注册表的用户和密码
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: 123456

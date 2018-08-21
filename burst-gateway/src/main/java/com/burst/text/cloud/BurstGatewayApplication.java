@@ -12,6 +12,9 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
+/**
+ * @author shenmuyao
+ */
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableZuulProxy
@@ -23,7 +26,7 @@ public class BurstGatewayApplication{
         SpringApplication.run(BurstGatewayApplication.class, args);
     }
 
-    @Bean
+    /**@Bean
     public CorsFilter corsFilter() {
         final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         final CorsConfiguration config = new CorsConfiguration();
@@ -46,5 +49,5 @@ public class BurstGatewayApplication{
         config.addAllowedMethod("PATCH");
         source.registerCorsConfiguration("/**", config);
         return new CorsFilter(source);
-    }
+    }*/
 }

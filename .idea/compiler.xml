@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="burst-common-core" />
         <module name="burst-common-util" />
+        <module name="burst-config" />
         <module name="burst-eureka" />
         <module name="burst-gateway" />
         <module name="burst-monitor" />
+        <module name="burst-zipkin" />
       </profile>
     </annotationProcessing>
   </component>

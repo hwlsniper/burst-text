@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: burst-config #@pom.artifactId@
+  #rabbitmq:
+    #host: burst-mq-rabbit
+    #port: 5672
+    #username: guest
+    #password: guest
+  boot:
+    admin:
+      username: admin
+      password: admin
+
+security:
+  user:
+    name: admin
+    password: admin

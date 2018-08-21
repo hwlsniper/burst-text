@@ -26,6 +26,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-oauth2</artifactId>
         </dependency>
+        <!--
         <dependency>
             <groupId>com.liuzm.paascloud.common</groupId>
             <artifactId>paascloud-common-base</artifactId>
@@ -34,7 +35,7 @@
             <groupId>com.liuzm.paascloud.common</groupId>
             <artifactId>paascloud-common-util</artifactId>
         </dependency>
-
+        -->
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper</artifactId>
@@ -83,11 +84,13 @@
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jsr310</artifactId>
         </dependency>
+        <!--
         <dependency>
             <groupId>com.liuzm.paascloud.common</groupId>
             <artifactId>paascloud-common-config</artifactId>
             <version>1.0</version>
         </dependency>
+        -->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
@@ -96,11 +99,12 @@
             <groupId>com.arronlong.httpclientutil</groupId>
             <artifactId>httpclientutil</artifactId>
         </dependency>
+        <!--
         <dependency>
             <groupId>com.liuzm.paascloud.common</groupId>
             <artifactId>paascloud-common-zk</artifactId>
         </dependency>
-
+        -->
         <dependency>
             <groupId>com.netflix.hystrix</groupId>
             <artifactId>hystrix-core</artifactId>

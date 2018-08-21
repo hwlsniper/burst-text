@@ -5,9 +5,11 @@
     <file url="file://$PROJECT_DIR$/burst-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/burst-common/burst-common-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/burst-common/burst-common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/burst-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/burst-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/burst-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/burst-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/burst-zipkin" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

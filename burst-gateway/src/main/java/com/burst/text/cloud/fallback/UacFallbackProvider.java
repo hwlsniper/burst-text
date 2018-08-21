@@ -1,6 +1,10 @@
 package com.burst.text.cloud.fallback;
 
-import com.netflix.hystrix.exception.HystrixTimeoutException;
+public class UacFallbackProvider{
+
+}
+
+/*import com.netflix.hystrix.exception.HystrixTimeoutException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.netflix.zuul.filters.route.FallbackProvider;
 import org.springframework.http.HttpHeaders;
@@ -10,12 +14,12 @@ import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.stereotype.Component;
 
 import java.io.ByteArrayInputStream;
-import java.io.InputStream;
+import java.io.InputStream;*/
 
 /**
  * 回退
  */
-@Slf4j
+/*@Slf4j
 @Component
 public class UacFallbackProvider implements FallbackProvider {
     @Override
@@ -76,4 +80,4 @@ public class UacFallbackProvider implements FallbackProvider {
             }
         };
     }
-}
+}*/
