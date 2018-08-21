@@ -3,7 +3,7 @@ server:
 
 spring:
   profiles:
-    active: native # dev
+    active: dev # native
   application:
     name: burst-config #@pom.artifactId@
   #rabbitmq:

@@ -1,10 +1,10 @@
 spring:
   cloud:
     config:
-      fail-fast: true
-      #discovery:
-        #service-id: paascloud-discovery
-        #enabled: true
+      fail-fast: false
+      discovery:
+        service-id: burst-config
+        enabled: true
       label: ${spring.profiles.active}
       profile: ${spring.profiles.active}
       username: admin
