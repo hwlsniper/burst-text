@@ -10,10 +10,6 @@ spring:
         period: 60000
       discovery:
         enabled: true
-      #notify:
-        #mail:
-          #to: xxxxxxxx@163.com
-          #from: paascloudTest@163.com
       turbine:
         clusters: default
         location: durst-monitor
