@@ -2,39 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f6e70a0-86ba-44a5-b8ef-881599c3a505" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-config/burst-config.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-config/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-config/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-config/src/main/resources/config/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-config/src/main/resources/config/burst-monitor-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-config/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-monitor/src/main/java/com/burst/text/cloud/BurstMonitorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-monitor/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-monitor/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-monitor/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-monitor/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-zipkin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-zipkin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-zipkin/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-zipkin/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burst-zipkin/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burst-common/burst-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/burst-common/burst-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burst-eureka/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/burst-eureka/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burst-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/burst-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/BurstGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/BurstGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/burst-config-repo/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/burst-config-repo/burst-monitor-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/burst-config/src/main/resources/bootstrap-native.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burst-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/burst-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burst-config/src/main/java/com/burst/text/cloud/BurstConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/burst-config/src/main/java/com/burst/text/cloud/BurstConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burst-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/burst-config/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burst-config/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/burst-config/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burst-config/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/burst-config/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burst-config/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/burst-config/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burst-config/target/classes/com/burst/text/cloud/BurstConfigApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/burst-config/target/classes/com/burst/text/cloud/BurstConfigApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/fallback/UacFallbackProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/fallback/UacFallbackProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/filter/AuthHeaderFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/filter/AuthHeaderFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/filter/RenewFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/filter/RenewFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burst-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/burst-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burst-monitor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/burst-monitor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burst-monitor/src/main/java/com/burst/text/cloud/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burst-gateway/target/classes/com/burst/text/cloud/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/burst-gateway/target/classes/com/burst/text/cloud/config/SecurityConfig.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,31 +38,22 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/burst-config/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="264">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/burst-config/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="352">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultRepositoryConfiguration.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/1.4.3.RELEASE/spring-cloud-config-server-1.4.3.RELEASE.jar!/org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/burst-config/src/main/resources/config/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
@@ -94,20 +65,8 @@
       <file leaf-file-name="burst-monitor-dev.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/burst-config/src/main/resources/config/burst-monitor-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BurstConfigApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/burst-config/src/main/java/com/burst/text/cloud/BurstConfigApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -142,8 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/burst-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/burst-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/burst-gateway/src/main/resources/banner.txt" />
         <option value="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/App.java" />
         <option value="$PROJECT_DIR$/burst-common/pom.xml" />
@@ -167,7 +124,6 @@
         <option value="$PROJECT_DIR$/burst-common/burst-common-core/pom.xml" />
         <option value="$PROJECT_DIR$/burst-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/BurstGatewayApplication.java" />
-        <option value="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/fallback/UacFallbackProvider.java" />
         <option value="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/filter/RenewFilter.java" />
         <option value="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/filter/AuthHeaderFilter.java" />
@@ -185,14 +141,17 @@
         <option value="$PROJECT_DIR$/burst-zipkin/src/main/java/com/burst/text/cloud/BurstZipkinApplication.java" />
         <option value="$PROJECT_DIR$/burst-zipkin/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/burst-monitor/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/burst-config/pom.xml" />
         <option value="$PROJECT_DIR$/burst-config/src/main/resources/banner.txt" />
         <option value="$PROJECT_DIR$/burst-config/src/main/java/com/burst/text/cloud/App.java" />
-        <option value="$PROJECT_DIR$/burst-config/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/burst-config/src/main/java/com/burst/text/cloud/BurstConfigApplicationApp.java" />
         <option value="$PROJECT_DIR$/burst-config/src/main/resources/config/burst-monitor-dev.yml" />
-        <option value="$PROJECT_DIR$/burst-config/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/burst-config/pom.xml" />
+        <option value="$PROJECT_DIR$/burst-config/src/main/java/com/burst/text/cloud/BurstConfigApplication.java" />
+        <option value="$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/burst-config/src/main/resources/config/application-dev.yml" />
+        <option value="$PROJECT_DIR$/burst-config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/burst-config/src/main/resources/bootstrap-native.yml" />
+        <option value="$PROJECT_DIR$/burst-config/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -211,7 +170,18 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="burst-common-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="burst-config" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="burst-config" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="burst-config" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
@@ -265,23 +235,6 @@
               <item name="burst-config" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="burst-text" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burst-text" type="462c0819:PsiDirectoryNode" />
-              <item name="burst-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="burst-text" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burst-text" type="462c0819:PsiDirectoryNode" />
-              <item name="burst-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,48 +245,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="burst-text" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burst-text" type="462c0819:PsiDirectoryNode" />
-              <item name="burst-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="burst-text" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burst-text" type="462c0819:PsiDirectoryNode" />
-              <item name="burst-zipkin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="burst-text" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burst-text" type="462c0819:PsiDirectoryNode" />
-              <item name="burst-zipkin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="burst-text" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burst-text" type="462c0819:PsiDirectoryNode" />
-              <item name="burst-zipkin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="burst-text" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burst-text" type="462c0819:PsiDirectoryNode" />
-              <item name="burst-zipkin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="burst-text" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burst-text" type="462c0819:PsiDirectoryNode" />
-              <item name="burst-zipkin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,11 +279,11 @@
       <recent name="com.burst.text.cloud.core.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workTool\JetBrains\IEDAPro\burst-text\burst-config-repo" />
       <recent name="D:\workTool\JetBrains\IEDAPro\burst-text\burst-config\src\main\resources" />
       <recent name="D:\workTool\JetBrains\IEDAPro\burst-text\burst-zipkin\src\main\resources" />
       <recent name="D:\workTool\JetBrains\IEDAPro\burst-text\burst-monitor\src\main\resources" />
       <recent name="D:\workTool\JetBrains\IEDAPro\burst-text\burst-common\burst-common-core\src\main\resources" />
-      <recent name="D:\workTool\JetBrains\IEDAPro\burst-text\burst-common\burst-common-core\src\main\java\com\burst\text\cloud\core" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -478,15 +389,16 @@
       <workItem from="1534746563826" duration="4715000" />
       <workItem from="1534751418097" duration="7823000" />
       <workItem from="1534760699425" duration="1288000" />
-      <workItem from="1534812698668" duration="9528000" />
+      <workItem from="1534812698668" duration="16584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23354000" />
+    <option name="totallyTimeSpent" value="30410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
@@ -499,7 +411,7 @@
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.39911798" />
+      <window_info anchor="bottom" id="Debug" order="10" visible="true" weight="0.30319735" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.31201765" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -512,10 +424,10 @@
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2734375" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2734375" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3296582" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.3296582" />
@@ -559,20 +471,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/burst-common/burst-common-core/src/main/java/com/burst/text/cloud/base/enums/ErrorCodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/burst-common/burst-common-core/src/main/java/com/burst/text/cloud/base/exception/BusinessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/burst-common/burst-common-core/src/main/java/com/burst/text/cloud/core/interceptor/CoreHeaderInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -742,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/filter/AuthHeaderFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -847,70 +738,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/burst-config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/burst-monitor/src/main/java/com/burst/text/cloud/BurstMonitorApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/burst-config/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/burst-zipkin/src/main/java/com/burst/text/cloud/BurstZipkinApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/burst-config/src/main/java/com/burst/text/cloud/BurstConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/burst-config/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/burst-config/src/main/resources/config/burst-monitor-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/burst-config/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -921,10 +752,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/burst-config/src/main/java/com/burst/text/cloud/BurstConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burst-gateway/src/main/java/com/burst/text/cloud/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burst-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="92" column="18" lean-forward="true" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burst-monitor/src/main/java/com/burst/text/cloud/BurstMonitorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burst-zipkin/src/main/java/com/burst/text/cloud/BurstZipkinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burst-config/src/main/resources/bootstrap-native.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burst-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burst-config-repo/burst-monitor-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/burst-config/src/main/resources/config/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burst-config/src/main/resources/config/burst-monitor-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burst-config/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>

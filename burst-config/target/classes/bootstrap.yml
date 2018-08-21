@@ -3,13 +3,24 @@ spring:
     config:
       server:
         native:
+          search-locations: classpath:/config/ # 搜索src/main/resource 下的config文件夹下的文件
+  profiles:
+    active: native  # 配置使用本地储存
+
+
+
+#spring:
+  #cloud:
+    #config:
+      #server:
+        #native:
+          #default-label: ${spring.profiles.active}
+          #search-locations: classpath:/config/
         #git:
           #uri: https://github.com/paascloud/paascloud-config-repo.git
           #username:
           #password:
           #search-paths: /*
-          default-label: ${spring.profiles.active}
-          search-locations: D:/workTool/JetBrains/IEDAPro/burst-text/burst-config/src/main/resources/config
           #basedir: /data/config/paascloud-config-repo
     #inetutils:
       #ignoredInterfaces:
